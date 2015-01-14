@@ -14,6 +14,8 @@
 		6B8CC7C81A65FDE700FD0BF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8CC7C71A65FDE700FD0BF2 /* Images.xcassets */; };
 		6B8CC7CB1A65FDE700FD0BF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8CC7C91A65FDE700FD0BF2 /* LaunchScreen.xib */; };
 		6B8CC7D71A65FDE700FD0BF2 /* SalaryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CC7D61A65FDE700FD0BF2 /* SalaryCalculatorTests.swift */; };
+		6B8CC7E11A65FF4200FD0BF2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CC7E01A65FF4200FD0BF2 /* ListTableViewController.swift */; };
+		6B8CC7E31A65FF5F00FD0BF2 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CC7E21A65FF5F00FD0BF2 /* AddTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		6B8CC7D01A65FDE700FD0BF2 /* SalaryCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8CC7D51A65FDE700FD0BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8CC7D61A65FDE700FD0BF2 /* SalaryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorTests.swift; sourceTree = "<group>"; };
+		6B8CC7E01A65FF4200FD0BF2 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		6B8CC7E21A65FF5F00FD0BF2 /* AddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				6B8CC7BD1A65FDE700FD0BF2 /* AppDelegate.swift */,
 				6B8CC7C21A65FDE700FD0BF2 /* ViewController.swift */,
+				6B8CC7E01A65FF4200FD0BF2 /* ListTableViewController.swift */,
+				6B8CC7E21A65FF5F00FD0BF2 /* AddTableViewController.swift */,
 				6B8CC7C41A65FDE700FD0BF2 /* Main.storyboard */,
 				6B8CC7C71A65FDE700FD0BF2 /* Images.xcassets */,
 				6B8CC7C91A65FDE700FD0BF2 /* LaunchScreen.xib */,
@@ -218,6 +224,8 @@
 				6B8CC7C31A65FDE700FD0BF2 /* ViewController.swift in Sources */,
 				6B8CC7BE1A65FDE700FD0BF2 /* AppDelegate.swift in Sources */,
 				6B8CC7C11A65FDE700FD0BF2 /* SalaryCalculator.xcdatamodeld in Sources */,
+				6B8CC7E11A65FF4200FD0BF2 /* ListTableViewController.swift in Sources */,
+				6B8CC7E31A65FF5F00FD0BF2 /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
