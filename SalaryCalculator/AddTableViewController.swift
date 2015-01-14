@@ -11,7 +11,10 @@ import UIKit
 class AddTableViewController: UITableViewController {
     
     @IBOutlet weak var depOneBedSalaryLabel: UILabel!
+    @IBOutlet weak var depTwoBedSalaryLabel: UILabel!
+    
     @IBOutlet weak var depOneBedTextField: UITextField!
+    @IBOutlet weak var depTwoBedTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +35,17 @@ class AddTableViewController: UITableViewController {
             
         }
     }
+    
+    @IBAction func addDepTwoBedBtn(sender: UIButton) {
+        if depOneBedTextField.text == "" {
+            let alertController = UIAlertController(title: "Attention", message: "Please enter your departure room number.", preferredStyle: UIAlertControllerStyle.Alert)
+            alertController.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alertController, animated: true, completion: nil)
+        } else {
+            
+        }
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

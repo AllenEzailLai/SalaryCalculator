@@ -115,6 +115,9 @@
                                                     <state key="normal">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="addDepTwoBedBtn:" destination="zdS-ap-NgM" eventType="touchUpInside" id="USK-z2-QMR"/>
+                                                    </connections>
                                                 </button>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter room num." textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WG5-W3-BY6">
                                                     <rect key="frame" x="451" y="13" width="109" height="17"/>
@@ -318,6 +321,8 @@
                     <connections>
                         <outlet property="depOneBedSalaryLabel" destination="HCr-U1-uJz" id="AP4-if-lcs"/>
                         <outlet property="depOneBedTextField" destination="Icl-wP-fcz" id="aS3-YJ-YJm"/>
+                        <outlet property="depTwoBedSalaryLabel" destination="4R1-J9-Wao" id="w52-Fn-Q5i"/>
+                        <outlet property="depTwoBedTextField" destination="WG5-W3-BY6" id="kM9-ZA-Ssl"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5S4-0H-Xuo" userLabel="First Responder" sceneMemberID="firstResponder"/>
